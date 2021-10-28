@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px gainsboro;
+}
+
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding: 0 1% 30px 1%;
+}
+footer {
+    background-color: rgb(21, 16, 56);
+    color: rgb(187, 230, 247);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(46, 33, 129);
+    font-size: 22px;
+    border: solid 1px rgb(46, 33, 129);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: rgb(195, 216, 248);
+    background-color: rgb(21, 16, 56);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(46, 33, 129);
+}
+#home {
+    text-align: center;
+}
+.titulo {
+    color: rgb(46, 33, 129);
+    text-align: center;
+}
+.etiqueta{
+    color: red;
+    font-size: 34px;
+}
+.text-derecha {
+    text-align: right;
+}
+
+
+#tablas {
+    text-align: center;
+}
+
+#tabla-default table{
+    width: 80%;
+    margin: 0 auto;
+}
+#tabla-default th{
+    background-color: rgb(46, 33, 129);
+    color: cyan;
+    font-size: 28px;
+}
+#tabla-default td{
+    background-color: cyan;
+    color: rgb(46, 33, 129);
+    font-size: 20px;
+}
+
+
+#tabla-celdas-combinadas table{
+    width: 80%;
+    margin: 0 auto;
+}
+#tabla-celdas-combinadas th{
+    background-color: #20a336;
+    color: yellow;
+    font-size: 28px;
+}
+#tabla-celdas-combinadas td{
+    background-color: yellow;
+    color: #20a336;
+    font-size: 20px;
+}
+
+
+#tabla-parimpar table{
+    width: 80%;
+    margin: 0 auto;
+}
+#tabla-parimpar th{
+    background-color: #440744;
+    color: #b3c969;
+    font-size: 28px;
+}
+#tabla-parimpar tr:nth-child(odd) {
+    background-color: #f8f8d4;
+    font-size: 20px;
+}
+#tabla-parimpar tr:nth-child(even) {
+    background-color: #f8dcf8;
+    color: #7a3e51;
+    font-size: 20px;
+}
+
+#tabla-horario table{
+    width: 80%;
+    margin: 0 auto;
+}
+#tabla-horario table, #tabla-horario td, #tabla-horario th{
+    border: solid 1px grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tabla-horario th{
+    color: #3a7b77;
+}
+#curso {
+    font-size: x-large;
+    font-style: italic;
+}
+#dias {
+    font-weight: normal;
+}
+.FOL {
+    background-color:#ffd231;
+}
+.ENDE {
+    background-color:#8080c0;
+}
+.BDD {
+    background-color:#81ff81;
+}
+.ING {
+    background-color:#eff0c8;
+}
+.LMSG {
+    background-color:#fe8081;
+}
+.SISI {
+    background-color:#c9a0c8;
+}
+.PROG {
+    background-color:#96dc96;
+}
+
+
+#custom_desordenada li {
+    list-style-type: square;
+}
+#custom_desordenada li li{
+    list-style-type: disc;
+}
+#custom_desordenada li li li{
+    list-style-type: circle;
+}
+
+#custom_ordenada li {
+    list-style-type: lower-alpha;
+}
+#custom_ordenada li li{
+    list-style-image: url(../img/corazon16.png);
+}
+#custom_ordenada li li li{
+    list-style-type: upper-roman;
+    list-style-image: none;
+}
+#listas dt {
+    color: blue;
+    font-weight: bold;
+}
+
+#formulario_inicial fieldset{
+    width: 40%;
+}
+
+#formulario_grande fieldset{
+    width: 60%;
+}
+
+
+#multimedia {
+    text-align: center;
+}
