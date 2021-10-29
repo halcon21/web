@@ -1,10 +1,12 @@
 body {
     margin: 0;
+    background-color: rgb(235, 229, 229);
 }
 #container {
     width: 80%;
     margin: 0 auto;
-    box-shadow: 0 0 20px gainsboro;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    background-color: white;
 }
 
 header img {
@@ -14,15 +16,17 @@ header img {
 nav {
     width: 20%;
     float: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #contenido {
     width: 78%;
     float: right;
     padding: 0 1% 30px 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer {
     background-color: rgb(21, 16, 56);
-    color: rgb(187, 230, 247);
+    color: rgb(164, 215, 235);
     font-size: 30px;
     text-align: center;
     padding: 10px;
@@ -31,22 +35,23 @@ footer {
     clear: both;
 }
 nav ul, nav li {
-    padding: 0;
+    padding: 5px;
     margin: 0;
 }
 nav li {
     list-style-type: none;
     text-align: center;
-    color: rgb(46, 33, 129);
+    color: black;
     font-size: 22px;
-    border: solid 1px rgb(46, 33, 129);
+    background-color: rgb(238, 81, 41);
+    border: solid 2px rgb(44, 44, 38);
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 4px;
 }
 nav ul li:hover {
-    color: rgb(195, 216, 248);
-    background-color: rgb(21, 16, 56);
+    color: black;
+    background-color: rgb(32, 179, 179);
 }
 a {
     text-decoration: none;
@@ -58,8 +63,10 @@ a {
     text-align: center;
 }
 .titulo {
-    color: rgb(46, 33, 129);
+    color: rgb(44, 67, 100);
     text-align: center;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .etiqueta{
     color: red;
